@@ -1,5 +1,7 @@
-## ESP32
+# ESP32
  ESP32 is a series of low cost, low power microcontrollers with IoT capabilties (Wi-Fi, BLE, IEEE802.15.4). ESP32 is created and developed by the chinese company Espressif Systems. Their boards are wide-spread both among hobbyists and in industry, as they have a low entry-barrier and their SDK is well maintained.
+ 
+ This repository contains starting points and references for the ESP32 for the course Embedded Software for the Internet of things at University of Trento, whose [main repository can be found here](https://github.com/sinanyil81/Embedded-Systems/tree/main)
 
 
 <img src="references/esp32_image.png"/>
@@ -27,7 +29,7 @@ We recommend using one of three options for developing on ESP32s:
 - [Temperature Sensor](examples/temp_sensor)
 ### Connectivity
 #### BLE
-In order to allow your phone to observe broadcast BLE packets, download the app: nRF Connect
+In order to allow your phone to observe broadcast BLE packets, download the app: [nRF Connect](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-mobile)
 - [BLE pingpong](examples/ble_pingpong)
 The pingpong example allows exchanging a connection-less BLE packet between two nodes. You can also observe these packets in the app.
 - [BLE + mobile phone](examples/ble_mobile)
