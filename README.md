@@ -2,7 +2,7 @@
  ESP32 is a series of low cost, low power microcontrollers with IoT capabilties (Wi-Fi, BLE, IEEE802.15.4). ESP32 is created and developed by the chinese company Espressif Systems. Their boards are wide-spread both among hobbyists and in industry, as they have a low entry-barrier and their SDK is well maintained.
 
 
-< img src="ESP32-Docs/esp32_image.png"/>
+<img src="references/esp32_image.png"/>
 
 ## IDE
 We recommend using one of three options for developing on ESP32s:
