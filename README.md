@@ -1,5 +1,5 @@
 # ESP32
- ESP32 is a series of low cost, low power microcontrollers with IoT capabilties (Wi-Fi, BLE, IEEE802.15.4). ESP32 is created and developed by the chinese company Espressif Systems. Their boards are wide-spread both among hobbyists and in industry, as they have a low entry-barrier and their SDK is well maintained.
+ ESP32 is a series of low cost, low power microcontrollers with IoT capabilities (Wi-Fi, BLE, IEEE802.15.4). ESP32 is created and developed by the Chinese company Espressif Systems. Their boards are wide-spread both among hobbyists and in industry, as they have a low entry-barrier and their SDK is well maintained.
  
  This repository contains starting points and references for the ESP32 for the course Embedded Software for the Internet of things at University of Trento, whose [main repository can be found here](https://github.com/sinanyil81/Embedded-Systems/tree/main)
 
@@ -9,7 +9,7 @@
 ## IDE
 We recommend using one of three options for developing on ESP32s:<br>
     1. Use VSC with the Espressif IDE extension  <br>
-    2. Program in the IDE of your choice and compile/build/debug using the terminal / CLI (recommonded). Find some [useful commands and instructions here](references/useful_cmds.txt).<br>
+    2. Program in the IDE of your choice and compile/build/debug using the terminal / CLI (recommended). Find some [useful commands and instructions here](references/useful_cmds.txt).<br>
     3. Use the dedicated [Espressif-IDE](https://docs.espressif.com/projects/espressif-ide/en/latest/downloads.html), which is based on Eclipse
     
 ## Software Development Environment
@@ -35,7 +35,7 @@ The pingpong example allows exchanging a connection-less BLE packet between two 
 This is a [default ESP example](https://github.com/espressif/esp-idf/tree/master/examples/bluetooth/nimble/bleprph) 
 #### WIFI
 - [WIFI](examples/wifi)
-This example is not appropriate for Eduroam, because it is a WPA-2 Enterprise network, which requries specific certificates. Instead, you can test this on your phones hotspot or your home wifi.
+This example is not appropriate for Eduroam, because it is a WPA-2 Enterprise network, which requires specific certificates. Instead, you can test this on your phones hotspot or your home wifi.
 For this, one must first configure the WIFI SSID and password using idf.py menuconfig. Follow the instructions in its [readme](examples/wifi/README.md)
 For using eduroam, refer to the example given in ~/.espressif/v6.1/esp-idf/examples/wifi/wifi_enterprise/ or in the [esp github repository](https://github.com/espressif/esp-idf/tree/master/examples/wifi/wifi_enterprise) 
 
