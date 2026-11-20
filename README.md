@@ -32,7 +32,7 @@ In order to allow your phone to observe broadcast BLE packets, download the app:
 - [BLE pingpong](examples/ble_pingpong)
 The pingpong example allows exchanging a connection-less BLE packet between two nodes. You can also observe these packets in the app.
 - [BLE + mobile phone](examples/ble_mobile)
-This is the default ESP example found under 
+This is a [default ESP example](https://github.com/espressif/esp-idf/tree/master/examples/bluetooth/nimble/bleprph) 
 #### WIFI
 - [WIFI](examples/wifi)
 This example is not appropriate for Eduroam, because it is a WPA-2 Enterprise network, which requries specific certificates. Instead, you can test this on your phones hotspot or your home wifi.
