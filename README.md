@@ -7,19 +7,18 @@
 <img src="references/esp32_image.png"/>
 
 ## IDE
-We recommend using one of three options for developing on ESP32s:
-    1. Use VSC with the Espressif IDE extension
-    2. Program in the IDE of your choice and compile/build/debug [using the terminal / CLI](references/useful_cmds.txt). 
-    3. Use the dedicated [Espressif-IDE](https://docs.espressif.com/projects/espressif-ide/en/latest/downloads.html)(external), which is based on Eclipse
+We recommend using one of three options for developing on ESP32s:<br>
+    1. Use VSC with the Espressif IDE extension  <br>
+    2. Program in the IDE of your choice and compile/build/debug using the terminal / CLI (recommonded). Find some [useful commands and instructions here](references/useful_cmds.txt).<br>
+    3. Use the dedicated [Espressif-IDE](https://docs.espressif.com/projects/espressif-ide/en/latest/downloads.html), which is based on Eclipse
     
 ## Software Development Environment
-- Download & install the software framework:  [Installation & Getting Started](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)(external)
-- [API Documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/index.html)(external)
+- Download & install the software framework:  [Installation & Getting Started](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html)
+- [API Documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/index.html)
 
 ## Equipment provided by the University
 - MCU: [ESP32-C3-MINI-1 Datasheet](references/esp32-c3-mini-1_datasheet_en.pdf)
 - Development Kit: [ESP32-C3-DevKit-RUST-2](references/esp-dev-kits-en-master-esp32c3.pdf)
-
 
 ## Examples
 ### Basic
@@ -47,9 +46,10 @@ Default examples can be found locally under ~/espressif/v6.1/esp-idf/examples or
 
 
 ## Other references
-- [Timer](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/esp_timer.html)(external)
-- [Temperature (on board)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/temp_sensor.html)(external)
-- [BLE doc](https://mynewt.apache.org/latest/network/ble_hs/ble_hs.html)(external)
-- other [BLE examples](https://github.com/espressif/esp-idf/tree/master/examples/bluetooth/ble_get_started/nimble)(external)
-- [WIFI](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/api-reference/network/esp_wifi.html)(external)
-- All [default examples](https://github.com/espressif/esp-idf/tree/master/examples)(external)
+- [Timer](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/esp_timer.html)
+- [Temperature (on board)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-reference/peripherals/temp_sensor.html)
+- [BLE doc](https://mynewt.apache.org/latest/network/ble_hs/ble_hs.html)
+- [WIF doc](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/api-reference/network/esp_wifi.html)
+
+- other [BLE examples](https://github.com/espressif/esp-idf/tree/master/examples/bluetooth/ble_get_started/nimble)
+- All [default examples](https://github.com/espressif/esp-idf/tree/master/examples)
