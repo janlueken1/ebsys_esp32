@@ -1,0 +1,32 @@
+After having installed the esp-idf, take the following steps to build and flash the ESP32 using the CLI:
+
+
+SETTING UP
+1. Run the following shell script:
+	~/.espressif/v6.1/esp-idf/install.sh esp32c3
+	-> this installs the tooling required for the ESPC3 MCU, the one that is one the dev board provided by the University (ESP32-C3-DEVKIT-RUST-2)
+2. Go to the directory of your project:
+	cd ~/path/your_project/
+3. Set the target of your build to the ESPC3:
+	idf.py set-target esp32c3
+	-> this must be done once per project, or whenever it was compiled for a different device before
+	
+BUILDING AND FLASHING
+4. Whenever opening a new console, source the idf toolchain, using:
+	"source ~/.espressif/tools/activate_idf_v6.1.sh"
+	OR
+        ". ~/.espressif/v6.1/esp-idf/export.sh"
+5. To compile:
+	idf.py build
+6. To flash:
+	idf.py flash
+	OR
+	idf.py flash -p PORT monitor
+	-> set PORT to the port of your esp32 device. In Linux, the PORT is typically:
+		/dev/ttyACM* (e.g., ttyACM0) or /dev/ttyUSB*
+	   print them in the console using 
+	   	ls /dev/ttyACM*
+   	-> the "montior" command opens the terminal of the esp32, and allows you to view the prints and logs of the MCU.
+   	-> To exit: CTRL + ]
+   	-> To see a list of all commands: CTRL+T then CTRL+H 
+	
